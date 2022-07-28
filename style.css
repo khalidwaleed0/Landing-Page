@@ -17,12 +17,31 @@ h1.big-title {
 }
 
 button {
-  border: none;
   border-radius: 8px;
   font-size: 16px;
   padding: 8px 32px;
+  font-weight: bold;
+}
+
+.header-sign-up-button {
+  border: none;
   color: white;
   background-color: #3882F6;
+}
+
+.footer-sign-up-button {
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  color: white;
+  background-color: #3882F6;
+  align-self: center;
+  margin-left: auto;
+}
+
+.footer-sign-up-button:hover {
+  color: #3882F6;
+  background-color: white;
 }
 
 p.secondary-text {
@@ -51,6 +70,12 @@ p.secondary-text {
 
 .left-content, .right-content {
   flex: 1;
+}
+
+.header-links {
+  display: flex;
+  margin-left: auto;
+  gap: 24px;
 }
 
 .info-section {
@@ -103,10 +128,33 @@ p.secondary-text {
   align-self: flex-end;
 }
 
-.header-links {
+.sign-up-section {
   display: flex;
-  margin-left: auto;
-  gap: 24px;
+  margin: 72px 140px;
+  padding: 32px 72px;
+  border-radius: 8px;
+  background-color: #3882F6;
+}
+
+.sign-up-title {
+  margin: 0;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+.sign-up-text {
+  margin: 0;
+  color: #E5E7EB;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+  color: #E5E7EB;
+  background-color: #1F2937;
 }
 
 a {
