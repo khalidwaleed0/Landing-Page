@@ -99,8 +99,8 @@ p.secondary-text {
 .info-cards {
   display: flex;
   justify-content: center;
-  gap: 16px;
-  margin-bottom: 52px;
+  gap: 42px;
+  margin: 0 100px 52px 100px;
 }
 
 .info-card {
@@ -109,7 +109,13 @@ p.secondary-text {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  max-width: 200px;
+  width: 200px;
+  height: 200px;
+}
+
+.info-card img {
+  width: 100%;
+  height: 100%;
 }
 
 .quote-section {
