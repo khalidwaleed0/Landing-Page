@@ -82,7 +82,7 @@ p.secondary-text {
   gap: 24px;
 }
 
-.info-section {
+#info-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -118,7 +118,7 @@ p.secondary-text {
   height: 100%;
 }
 
-.quote-section {
+#quote-section {
   display: flex;
   flex-direction: column;
   padding: 72px 200px;
@@ -139,7 +139,7 @@ p.secondary-text {
   align-self: flex-end;
 }
 
-.sign-up-section {
+#sign-up-section {
   display: flex;
   margin: 72px 140px;
   padding: 32px 72px;
